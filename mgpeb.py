@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from collections import deque
 import os
 import time
+import numpy as np
 
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -364,7 +365,6 @@ def iniciar_sistema():
 
             case 4:
                 print("\nGERANDO MODELO MATEMÁTICO DE DESCIDA...")
-                import numpy as np
 
                 t = np.linspace(0, 25, 200)
                 c = 18.5 - 0.8 * t
