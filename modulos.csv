@@ -1,0 +1,6 @@
+HAB-01,Habitacao,4,60.0,20.0,Media,08:00
+ENE-01,Energia,1,12.0,18.0,Extrema,08:15
+LAB-01,Laboratorio Cientifico,5,85.0,15.0,Baixa,08:30
+LOG-01,Logistica,3,55.0,25.0,Baixa,08:45
+MED-01,Suporte Medico,2,40.0,10.0,Alta,09:00
+ISRU-01,Modulo de Extracao,2,18.5,12.5,Alta,09:15
