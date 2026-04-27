@@ -119,9 +119,6 @@ def ordenar_fila_por_score(fila_de_pouso):
 # --------------------------------------------------------
 # --- 4. PROCESSAMENTO DA FILA E ESTRUTURAS AUXILIARES ---
 # --------------------------------------------------------
-# --------------------------------------------------------
-# --- 4. PROCESSAMENTO DA FILA E ESTRUTURAS AUXILIARES ---
-# --------------------------------------------------------
 def processar_fila(fila_de_pouso, tempestade, pista, sensores):
     frota_status = []
     for m in fila_de_pouso:
