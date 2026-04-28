@@ -124,23 +124,25 @@ def processar_fila(fila_de_pouso, tempestade, pista, sensores):
     for m in fila_de_pouso:
         frota_status.append({
             "id": m[0],
+            "score": calcular_score(m),
             "combustivel": float(m[3]),
             "status": "  EM ÓRBITA",
             "msg": "Aguardando Janela"
         })
 
     def desenhar_painel():
+        def desenhar_painel():
         limpar_tela()
-        print("="*85)
+        print("="*95) # Aumentado para 95
         print("   PAINEL DE CONTROLE MGPEB - TELEMETRIA AO VIVO")
-        print("="*85)
+        print("="*95) # Aumentado para 95
         print(f"   SENSORES: Tempestade: {'SIM  ' if tempestade else 'NÃO  '} | Pista: {'LIVRE  ' if pista else 'OCUPADA  '} | Sensores: {'OK  ' if sensores else 'FALHA  '}")
-        print("-" * 85)
-        print(f"{'ID':<10} | {'COMBUSTÍVEL':<15} | {'STATUS':<15} | {'TELEMETRIA'}")
-        print("-" * 85)
+        print("-" * 95) # Aumentado para 95
+        print(f"{'ID':<10} | {'SCORE':<7} | {'COMBUSTÍVEL':<15} | {'STATUS':<15} | {'TELEMETRIA'}")
+        print("-" * 95) # Aumentado para 95
         for m in frota_status:
-            print(f"{m['id']:<10} | {m['combustivel']:>10.1f}%     | {m['status']:<15} | {m['msg']}")
-        print("="*85)
+            print(f"{m['id']:<10} | {m['score']:>5.0f}   | {m['combustivel']:>10.1f}%      | {m['status']:<15} | {m['msg']}")
+        print("="*95) # Aumentado para 95
 
     fila_indices = list(range(len(frota_status)))
 
