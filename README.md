@@ -18,7 +18,7 @@ O sistema foi moldado para operar em ambientes hostis e com grande escassez, com
 ## Instruções de Instalação
 Para garantir a integridade da simulação, antes de executar o código, o usuário deve se atentar a baixar as bibliotecas externas responsáveis pela telemetria visual e modelagem matemática, que não vêm instaladas por padrão no Python, por isso é tão necessário. 
 
-- Abra o seu terminal e execute esse comando: "pip install matplotlib numpy"
+- Abra o seu terminal e execute esse comando: "pip install matplotlib numpy".
 
 - Matplotlib: Utilizada para gerar os gráficos de combustível inicial da frota e a a modelagem matemática de descida.
 
@@ -29,7 +29,7 @@ O sistema é autossuficiente e, desse modo, ao ser iniciado, ele verifica e gera
 
 - O arquivo principal "mgpeb.py" está localizado em um diretório de fácil acesso.
 
-- Abra o terminal, navegue até a pasta do projeto e digite o comando: "python mgpeb.py"
+- Abra o terminal, navegue até a pasta do projeto e digite o comando: "python mgpeb.py".
 
 ## Manual de Operação da Interface
 Ao iniciar o algoritmo, o sistema apresentará ao usuário o painel de controle principal, que possui 5 opções de operação.
