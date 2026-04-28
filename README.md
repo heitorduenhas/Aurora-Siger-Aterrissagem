@@ -36,12 +36,12 @@ Ao iniciar o algoritmo, o sistema apresentará ao usuário o painel de controle 
 
 - Observação: após visualizar o conteúdo mostrado pela opção do centro de comando, sempre aperte ENTER para retornar ao menu principal e seguir com a operação.
 
- (1) Verificar Status da Estação: essa operação demonstra o diagnóstico dos sistemas ambientais e orbitais em tempo real processando a fila de sensores.
+- (1) Verificar Status da Estação: essa operação demonstra o diagnóstico dos sistemas ambientais e orbitais em tempo real processando a fila de sensores.
 
- (2) Mostrar Gráfico da Frota: exibe um gráfico de barras que comprova a teoria de combustível de chegada. (atenção: uma nova janela de interface gráfica será aberta. O usuário deve fechar a janela do gráfico para liberar o terminal e prosseguir com a simulação).
+- (2) Mostrar Gráfico da Frota: exibe um gráfico de barras que comprova a teoria de combustível de chegada. (atenção: uma nova janela de interface gráfica será aberta. O usuário deve fechar a janela do gráfico para liberar o terminal e prosseguir com a simulação).
 
- (3) Iniciar Protocolo de Pouso MGPEB: Executa a inteligência principal, exibindo a tabela de aproximação onde os valores e status são atualizados automaticamente e ordenados pelo Score de prioridade. Aguarde o processamento contínuo até que todos os módulos estejam em solo para visualizar a simulação física com o resultado do pouso.
+- (3) Iniciar Protocolo de Pouso MGPEB: Executa a inteligência principal, exibindo a tabela de aproximação onde os valores e status são atualizados automaticamente e ordenados pelo Score de prioridade. Aguarde o processamento contínuo até que todos os módulos estejam em solo para visualizar a simulação física com o resultado do pouso.
 
- (4) Modelagem Física de Descida: Exibe o gráfico de decaimento linear, evidenciando o limite de emergência da missão (18.5%). O usuário deve fechar a janela do gráfico para retornar ao menu.
+- (4) Modelagem Física de Descida: Exibe o gráfico de decaimento linear, evidenciando o limite de emergência da missão (18.5%). O usuário deve fechar a janela do gráfico para retornar ao menu.
 
- (5) Encerrar Sistema: essa operação desliga os motores virtuais e encerra o algoritmo com segurança.
+- (5) Encerrar Sistema: essa operação desliga os motores virtuais e encerra o algoritmo com segurança.
