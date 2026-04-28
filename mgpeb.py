@@ -130,7 +130,7 @@ def processar_fila(fila_de_pouso, tempestade, pista, sensores):
             "msg": "Aguardando Janela"
         })
 
-def desenhar_painel():
+    def desenhar_painel():
         limpar_tela() 
         print("="*95)
         print("   PAINEL DE CONTROLE MGPEB - TELEMETRIA AO VIVO")
@@ -197,6 +197,7 @@ def desenhar_painel():
             modulo_para_simular = m
 
     return modulo_para_simular['id'], modulo_para_simular['combustivel']
+
 # ----------------------------------------------------
 # --- 5. SIMULAÇÃO FÍSICA (Consumo de Combustível) ---
 # ----------------------------------------------------
@@ -230,6 +231,7 @@ def simulacao_fisica(nome_modulo="ISRU-01", tanque_atual=18.5):
         print(f">> SUCESSO: Toque no solo confirmado! Restante: {tanque_atual:.1f}%")
     else:
         print(f">> ALERTA FATAL: Impacto a {altitude:.1f}m de altura. (Combustível Esgotado)")
+
 # ----------------------------------------------------
 # --- ROTINA PRINCIPAL DO SISTEMA ---
 # ----------------------------------------------------
