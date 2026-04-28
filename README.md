@@ -6,7 +6,7 @@ O algoritmo foi desenvolvido em ambiente local utilizando a linguagem Python, co
 ## Arquitetura e Funcionalidades do Código
 O sistema foi moldado para operar em ambientes hostis e com grande escassez, como Marte. Dessa forma simulamos restrições severas de hardware, utilizando conceitos de Engenharia de Software e Ciência da Computação:
 
-- Estruturas de Dados: Utilização de 'collections.deque' para processamento O(1) no diagnóstico de sensores e encapsulamento da frota em uma lista dinâmica unificada de dicionários, denominada como 'frota_status', economizando memória RAM ao invés de usar múltiplas listas redundantes.
+- Estruturas de Dados: Utilização de "collections.deque" para processamento O(1) no diagnóstico de sensores e encapsulamento da frota em uma lista dinâmica unificada de dicionários, denominada como "frota_status", economizando memória RAM ao invés de usar múltiplas listas redundantes.
   
 - Inteligência Heurística de Pouso: A fila tradicional (FIFO) é quebrada através de um sistema de Score Dinâmico, que calcula a urgência de descida de cada módulo com base em 5 fatores (combustível, massa, prioridade nativa, criticidade e tempo de espera).
 
@@ -18,18 +18,18 @@ O sistema foi moldado para operar em ambientes hostis e com grande escassez, com
 ## Instruções de Instalação
 Para garantir a integridade da simulação, antes de executar o código, o usuário deve se atentar a baixar as bibliotecas externas responsáveis pela telemetria visual e modelagem matemática, que não vêm instaladas por padrão no Python, por isso é tão necessário. 
 
-- Abra o seu terminal e execute esse comando: 'pip install matplotlib numpy'.
+- Abra o seu terminal e execute esse comando: "pip install matplotlib numpy".
 
 - Matplotlib: Utilizada para gerar os gráficos de combustível inicial da frota e a a modelagem matemática de descida.
 
 - Numpy: Utilizada para a geração eficiente de vetores temporais e cálculos da modelagem matemática.
 
 ## Como Executar o Software
-O sistema é autossuficiente e, desse modo, ao ser iniciado, ele verifica e gera automaticamente o arquivo local de banco de dados em 'modulos.csv', não sendo necessário criá-lo manualmente. Para executar o software sem transtornos, certifique-se que:
+O sistema é autossuficiente e, desse modo, ao ser iniciado, ele verifica e gera automaticamente o arquivo local de banco de dados em "modulos.csv", não sendo necessário criá-lo manualmente. Para executar o software sem transtornos, certifique-se que:
 
-- O arquivo principal 'mgpeb.py' está localizado em um diretório de fácil acesso.
+- O arquivo principal "mgpeb.py" está localizado em um diretório de fácil acesso.
 
-- Abra o terminal, navegue até a pasta do projeto e digite o comando: 'python mgpeb.py'.
+- Abra o terminal, navegue até a pasta do projeto e digite o comando: "python mgpeb.py".
 
 ## Manual de Operação da Interface
 Ao iniciar o algoritmo, o sistema apresentará ao usuário o painel de controle principal, que possui 5 opções de operação.
