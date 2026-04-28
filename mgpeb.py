@@ -130,7 +130,7 @@ def processar_fila(fila_de_pouso, tempestade, pista, sensores):
             "msg": "Aguardando Janela"
         })
 
-   def desenhar_painel():
+def desenhar_painel():
         limpar_tela() 
         print("="*95)
         print("   PAINEL DE CONTROLE MGPEB - TELEMETRIA AO VIVO")
